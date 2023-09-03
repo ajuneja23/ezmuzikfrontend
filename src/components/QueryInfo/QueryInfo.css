@@ -1,0 +1,76 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Oswald:wght@200;300&family=Source+Serif+4:opsz,wght@8..60,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 100vh;
+}
+.header > h3 {
+  text-align: center;
+  font-family: "Fira Sans";
+  color: white;
+}
+
+.header {
+  background-color: #9a4848;
+  font-size: 250%;
+  padding: 10px 0 10px 0;
+}
+
+.songname {
+  font-family: "Fira Sans";
+  text-align: center;
+  margin-top: 2.5%;
+  font-size: 500%;
+}
+
+.songartist {
+  font-family: "Montserrat";
+  text-align: center;
+  color: #46ce49;
+}
+
+.relatedartistsleft {
+  font-family: "Fira Sans";
+  font-size: 50%;
+  line-height: 300%;
+}
+
+.relatedartistsright {
+  font-family: "Fira Sans";
+  font-size: 50%;
+  line-height: 300%;
+}
+
+.relatedartistsright > h2 {
+  font-family: "Montserrat";
+  font-size: 250%;
+  margin-bottom: 5%;
+  color: #46ce49;
+}
+
+.relatedartistsleft > h2 {
+  font-family: "Montserrat";
+  font-size: 250%;
+  margin-bottom: 5%;
+  color: #9a4848;
+}
+
+.info > h2 {
+  text-align: center;
+  font-family: "Montserrat";
+  margin-top: 5%;
+  color: #9a4848;
+}
+
+.artistsloudness {
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 32.5% 40% 20%;
+}

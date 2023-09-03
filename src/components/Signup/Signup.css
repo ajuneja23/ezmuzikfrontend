@@ -1,0 +1,86 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Oswald:wght@200;300&family=Source+Serif+4:opsz,wght@8..60,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 100vh;
+}
+.header > h3 {
+  text-align: center;
+  font-family: "Fira Sans";
+  color: white;
+}
+
+.header {
+  background-color: #9a4848;
+  font-size: 250%;
+  padding: 10px 0 10px 0;
+}
+
+.signupform {
+  margin-top: 5%;
+  font-size: 150%;
+}
+
+.signupform > h2 {
+  text-align: center;
+  font-family: "Montserrat";
+  margin-bottom: 3%;
+}
+
+.field {
+  font-family: "Montserrat";
+  margin: 0 auto;
+  font-size: 100%;
+  width: 30%;
+  margin-bottom: 3%;
+  padding: 1% 0 1% 1%;
+  border-radius: 8px;
+  transition: background-color 1s;
+}
+
+.fields {
+  display: grid;
+}
+
+.submit {
+  position: relative;
+  left: 43.5%;
+  background-color: #9a4848;
+  font-family: "Fira Sans";
+  transition: background-color 1s;
+  color: white;
+  font-size: 100%;
+  width: 12.5%;
+  border-radius: 3px;
+  padding: 0.5%;
+}
+
+.submit:hover {
+  background-color: #46ce49;
+}
+
+.field:focus {
+  background-color: #46ce49;
+}
+
+.loginredirect > h6 {
+  text-align: center;
+  font-family: "Fira Sans";
+  font-weight: lighter;
+  margin-top: 2.5%;
+  font-size: 112.5%;
+  position: relative;
+}
+
+.loginredirect > h6 > a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.loginredirect > h6 > a:hover {
+  color: #9a4848;
+}
