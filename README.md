@@ -1,4 +1,4 @@
-# Spotify Stats Frontend
+# EZMuzik Frontend
 
 ## Demo
 https://github.com/ajuneja23/spotifystatsfrontend/assets/68940965/de359612-f443-4efa-ba7f-3c31b82f0ab2
